@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Route, NavLink, HashRouter } from "react-router-dom";
+import Json from "./Json";
 import Koti from "./Koti";
 import Tarina from "./Tarinat";
 import Yhteys from "./Yhteys";
@@ -22,11 +23,15 @@ class Main extends Component {
 						<li>
 							<NavLink to="/yhteys">Yhteys</NavLink>
 						</li>
+						<li>
+							<NavLink to="/Json">Json</NavLink>
+						</li>
 					</ul>
 					<div className="content">
-						<Route path="/" component={Koti} />
+						<Route exact path="/" component={Koti} />
 						<Route path="/tarina" component={Tarina} />
 						<Route path="/yhteys" component={Yhteys} />
+						<Route path="/json" component={Json} />
 					</div>
 				</div>
 			</HashRouter>
