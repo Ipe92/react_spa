@@ -1,21 +1,17 @@
 body {
 	background-color: #ffcc00;
-	padding         : 20px;
-	margin          : 0;
+	padding: 20px;
+	margin: 0;
 }
 
-h1,
-h2,
-p,
-ul,
-li {
+h1, h2, p, ul, li {
 	font-family: sans-serif;
 }
 
 ul.header li {
-	display        : inline;
+	display: inline;
 	list-style-type: none;
-	margin         : 0;
+	margin: 0;
 }
 
 ul.header {
@@ -23,21 +19,21 @@ ul.header {
 }
 
 ul.header li a {
-	color          : #fff;
-	font-weight    : bold;
+	color: #fff;
+	font-weight: bold;
 	text-decoration: none;
-	padding        : 20px;
-	display        : inline-block;
+	padding: 20px;
+	display: inline-block;
 }
 
 .content {
 	background-color: #fff;
-	padding         : 20px;
+	padding: 20px;
 }
 
 .content h2 {
 	padding: 0;
-	margin : 0;
+	margin: 0;
 }
 
 .content li {
@@ -49,32 +45,35 @@ ul.header li a {
 }
 
 .card {
-	box-shadow      : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	background-color: lightgray;
-	max-width       : 300px;
-	margin          : auto;
-	text-align      : center;
-	font-family     : arial;
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
 }
 
 .description {
-	color    : dimgray;
+	color: dimgray;
 	font-size: 22px;
-
 }
 
 .card button {
-	border          : none;
-	outline         : 0;
-	padding         : 12px;
-	color           : white;
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
 	background-color: #000;
-	text-align      : center;
-	cursor          : pointer;
-	width           : 100%;
-	font-size       : 18px;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
 }
 
 .card button:hover {
 	opacity: 0.7;
+}
+
+.tarina {
+	font-weight: 600;
 }

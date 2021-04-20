@@ -1,21 +1,44 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
-class Tarina extends Component {
+import AddTarina from './AddTarina';
+import TarinaLista from './TarinaLista';
+
+const tarinatData = [
+    "Listan juttu 1",
+    "Listan juttu 2",
+    "Listan juttu 3",
+    "Listan juttu 4",
+    "Listan juttu 5",
+];
+
+class Tarinat extends Component {
+    state = {
+        tarinat: tarinatData
+    };
+
+    onAddTarina(uusiTarina) {
+        this.setState({ tarinat: [...this.state.tarinat, uusiTarina] })
+    }
+
+    onRemoveFromList(poistettavaIndex) {
+        this.setState({
+            tarinat: this.state.tarinat.filter(
+                (tarina, index) => index !== poistettavaIndex
+            ),
+        });
+    }
+
     render() {
-        return(
+        const { tarinat } = this.state;
+        return (
             <div>
                 <h2>Tarina</h2>
                 <p>Tähämpä sitten voi säveltää omaa juttuaan ja sivun sisältöä:</p>
-                <ol>
-                    <li>Listan juttu 1</li>
-                    <li>Listan juttu 2</li>
-                    <li>Listan juttu 3</li>
-                    <li>Listan juttu 4</li>
-                    <li>Listan juttu 5</li>
-                </ol>
-            </div>
+                <AddTarina onAddTarina={(uusiTarina) => this.onAddTarina(uusiTarina)} />
+                <TarinaLista tarinat={tarinat} onRemoveFromList={(index) => this.onRemoveFromList(index)} />
+            </div >
         );
     }
 }
 
-export default Tarina;
+export default Tarinat;
