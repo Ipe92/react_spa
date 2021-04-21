@@ -21,6 +21,28 @@
                     "id": 31639
                 }
             ]
+        },
+        {
+            "id": 33,
+            "name": "Juvenile Forest Spider",
+            "description": "While other spiders use debilitating or paralyzing poison, forest-spider poison is simply corrosive and destructive. Fortunately they are immune to the acidic qualities of their own poison, but they do need to eat quickly. —Acht",
+            "icon": "https://render.guildwars2.com/file/46021B0706D37EEF1F3DE7090E5B0ACF0F927E7C/52598.png",
+            "skills": [
+                {
+                    "id": 12731
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "name": "Juvenile Red Jellyfish",
+            "description": "Jellyfish can release a variety of clouds in the water to replenish themselves and disorient their enemies. Their tentacles immobilize their prey by disrupting their nervous system. —Acht",
+            "icon": "https://render.guildwars2.com/file/C7F8301C1B76B3B208A23B19C3AABF0BBED8CA4C/52616.png",
+            "skills": [
+                {
+                    "id": 12749
+                }
+            ]
         }
     ]
 }
