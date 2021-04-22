@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+
+import * as TarinaActions from '../tarinaActions';
 
 function AddTarina(props) {
     const [uusiTarina, setUusiTarina] = useState(undefined);
 
     const onSubmit = (event) => {
         event.preventDefault();
-        props.onAddTarina(uusiTarina);
+        props.lisaaTarina(uusiTarina);
     };
 
     return (
@@ -16,4 +20,4 @@ function AddTarina(props) {
     );
 }
 
-export default AddTarina;
+export default connect(null, dispatch => bindActionCreators(TarinaActions, dispatch))(AddTarina);
