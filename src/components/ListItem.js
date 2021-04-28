@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from "prop-types";
 
 function ListItem(props) {
@@ -14,5 +14,4 @@ ListItem.propTypes = {
     className: PropTypes.string,
     onRemove: PropTypes.func,
 };
-
 export default ListItem;

@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import { Provider } from "react-redux"
 import { Route, NavLink, HashRouter } from "react-router-dom";
 
-import Json from "./Json";
+import Json from './Json';
 import Koti from "./Koti";
 import Tarina from "./containers/Tarinat";
-import Yhteys from "./containers/Yhteys/Yhteys";
+import Yhteys from './containers/Yhteys/Yhteys';
 
-import store from "./store";
+import store from './store';
 
 class Main extends Component {
 	render() {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import AddTarina from './containers/AddTarina';
-import ListItem from '../../components/ListItem';
+import TarinaLista from '../Tarinat/containers/TarinaLista';
 
 class Tarinat extends Component {
     render() {
@@ -10,7 +10,7 @@ class Tarinat extends Component {
                 <h2>Tarina</h2>
                 <p>Tähämpä sitten voi säveltää omaa juttuaan ja sivun sisältöä:</p>
                 <AddTarina />
-                <ListItem />
+                <TarinaLista />
             </div >
         );
     }

@@ -7,7 +7,7 @@ const staticReducers = {
     session: sessionReducer
 }
 
-export default function configureStore() {
+function configureStore() {
     const store = createStore(createReducer(), applyMiddleware(createLogger({ collapsed: true })))
 
     store.asyncReducers = {}
@@ -28,3 +28,4 @@ function createReducer(asyncReducers) {
     })
 }
 
+export default configureStore();

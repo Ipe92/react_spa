@@ -4,7 +4,8 @@ const initialStore = {
         "Listan juttu 2",
         "Listan juttu 3",
         "Listan juttu 4",
-        "Listan juttu 5",],
+        "Listan juttu 5",
+    ],
 };
 function tarinaReducer(store = initialStore, action) {
     switch (action.type) {

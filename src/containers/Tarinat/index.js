@@ -1,6 +1,6 @@
-import tarinaReducer from "./tarinaReducer";
+import tarinaReducer from './tarinaReducer';
 
-import store from "../../store";
+import store from '../../store';
 
 store.injectReducer("tarinoita", tarinaReducer);
 
