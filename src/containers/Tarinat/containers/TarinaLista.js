@@ -11,8 +11,8 @@ function TarinaLista(props) {
         <ol>
             {tarinat.map((tarina, index) => (
                 <ListItem
-                    key={index}
-                    title={tarina}
+                    key={tarina.id}
+                    title={tarina.title}
                     className="tarina"
                     onRemove={() => poistaTarina(index)} />
             ))}
