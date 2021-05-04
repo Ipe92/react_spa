@@ -79,6 +79,10 @@ ul.header li a {
 }
 
 .sample-icon {
-	width: 640px;
-	height: 640px;
+	width: 64px;
+	height: 64px;
+}
+
+.octicon:hover path {
+	fill: green;
 }

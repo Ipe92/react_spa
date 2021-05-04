@@ -1,8 +1,15 @@
 import React, { Component } from "react";
+import styled from 'styled-components';
 import githubJpg from './resources/images/github.jpg'
 import githubPng from './resources/images/github.png'
-import githubSvg from './resources/images/github.ai'
+import githubSvg, { ReactComponent as GithubSvgComponent } from './resources/images/github.svg'
 
+const SafeGithubLogo = styled.div`
+    width: 64px;
+    height: 64px;
+    background-image: url(${githubPng});
+    background-size: contain;
+`;
 
 class Koti extends Component {
     render() {
@@ -17,7 +24,9 @@ class Koti extends Component {
                 <img class="sample-icon" src={githubPng} alt="github kissa" />
                 <p>SVG kuva importtattuna</p>
                 <img class="sample-icon" src={githubSvg} alt="github kissa" />
-
+                <p>SVG kuva importtattuna komponentiksi</p>
+                <GithubSvgComponent className="octicon" />
+                <SafeGithubLogo />
             </div>
         );
     }
