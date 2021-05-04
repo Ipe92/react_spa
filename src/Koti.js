@@ -4,11 +4,24 @@ import githubJpg from './resources/images/github.jpg'
 import githubPng from './resources/images/github.png'
 import githubSvg, { ReactComponent as GithubSvgComponent } from './resources/images/github.svg'
 
+const IconImg = styled.img`
+    width: 64px;
+    height: 64px;
+`;
+
 const SafeGithubLogo = styled.div`
     width: 64px;
     height: 64px;
     background-image: url(${githubPng});
     background-size: contain;
+`;
+
+const StyledGithubSvgComponent = styled(GithubSvgComponent)`
+    width: 64px;
+    height: 64px;
+    &:hover path {
+	fill: green;
+}
 `;
 
 class Koti extends Component {
@@ -17,15 +30,16 @@ class Koti extends Component {
             <div>
                 <h2>Moikka</h2>
                 <p>Jpg kuva public kansiosta</p>
-                <img class="sample-icon" src="/images/github.jpg" alt="github kissa" />
+                <IconImg src="/images/github.jpg" alt="github kissa" />
                 <p>Jpg kuva importtattuna</p>
-                <img class="sample-icon" src={githubJpg} alt="github kissa" />
+                <IconImg src={githubJpg} alt="github kissa" />
                 <p>PNG kuva importtattuna</p>
-                <img class="sample-icon" src={githubPng} alt="github kissa" />
+                <IconImg src={githubPng} alt="github kissa" />
                 <p>SVG kuva importtattuna</p>
-                <img class="sample-icon" src={githubSvg} alt="github kissa" />
+                <IconImg src={githubSvg} alt="github kissa" />
                 <p>SVG kuva importtattuna komponentiksi</p>
-                <GithubSvgComponent className="octicon" />
+                <StyledGithubSvgComponent />
+                <p>PNG taustana</p>
                 <SafeGithubLogo />
             </div>
         );
