@@ -21,6 +21,7 @@ class Tarinat extends Component {
 			</div >
 		);
 	}
+	//https://slides.com/lukasgrolig
 }
 
 export default connect(null, (dispatch) => bindActionCreators(tarinaActions, dispatch))(Tarinat);
