@@ -1,0 +1,24 @@
+{
+    "tarinat": [
+        {
+            "id": 1,
+            "title": "Listanjuttu 1"
+        },
+        {
+            "id": 2,
+            "title": "Listanjuttu 2"
+        },
+        {
+            "id": 3,
+            "title": "Listanjuttu 3"
+        },
+        {
+            "id": 4,
+            "title": "Listanjuttu 4"
+        },
+        {
+            "id": 5,
+            "title": "Listanjuttu 5"
+        }
+    ]
+}
