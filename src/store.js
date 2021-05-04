@@ -1,5 +1,6 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import { createLogger } from 'redux-logger';
+import promise from 'redux-promise-middleware';
 
 const sessionReducer = (store = {}) => store;
 
@@ -8,7 +9,7 @@ const staticReducers = {
 }
 
 function configureStore() {
-    const store = createStore(createReducer(), applyMiddleware(createLogger({ collapsed: true })))
+    const store = createStore(createReducer(), applyMiddleware(promise, createLogger({ collapsed: true })))
 
     store.asyncReducers = {}
 

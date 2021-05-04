@@ -2,7 +2,14 @@ const initialStore = {
     tarinat: [],
 };
 function tarinaReducer(store = initialStore, action) {
+    console.log("ACTION", action);
     switch (action.type) {
+        case "HAE_TARINAT_FULFILLED": {
+            return {
+                ...store,
+                tarinat: action.payload,
+            };
+        }
         case "LISAA_TARINA": {
             return {
                 ...store,

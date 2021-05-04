@@ -9,11 +9,7 @@ import * as tarinaActions from '../Tarinat/tarinaActions';
 
 class Tarinat extends Component {
 	componentDidMount() {
-		fetch("http://localhost:4000/tarinat")
-			.then(response => response.json())
-			.then(data => {
-				data.forEach((tarina) => this.props.lisaaTarina(tarina));
-			});
+		this.props.haeTarinat();
 	}
 	render() {
 		return (
