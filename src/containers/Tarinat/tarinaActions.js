@@ -9,9 +9,13 @@ export function haeTarinat() {
 export function lisaaTarina(uusiTarina) {
     return {
         type: "LISAA_TARINA",
-        payload: fetch("http://localhost:4000/tarinat")
-            .then(response => response.json()
-            ),
+        payload: fetch("http://localhost:4000/tarinat", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ title: uusiTarina }),
+        }).then(response => response.json()),
     };
 }
 
