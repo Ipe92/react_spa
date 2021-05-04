@@ -22,6 +22,7 @@ class Tarinat extends Component {
 		);
 	}
 	//https://slides.com/lukasgrolig
+	// 1:13:52
 }
 
 export default connect(null, (dispatch) => bindActionCreators(tarinaActions, dispatch))(Tarinat);
