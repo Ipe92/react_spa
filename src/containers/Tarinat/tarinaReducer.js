@@ -13,7 +13,7 @@ function tarinaReducer(store = initialStore, action) {
             return {
                 ...store,
                 tarinat: store.tarinat.filter(
-                    (tarina, index) => index !== action.payload
+                    (tarina) => tarina.id !== action.payload
                 ),
             };
         }

@@ -9,12 +9,12 @@ function TarinaLista(props) {
     const { tarinat, poistaTarina } = props;
     return (
         <ol>
-            {tarinat.map((tarina, index) => (
+            {tarinat.map((tarina) => (
                 <ListItem
                     key={tarina.id}
                     title={tarina.title}
                     className="tarina"
-                    onRemove={() => poistaTarina(index)} />
+                    onRemove={() => poistaTarina(tarina.id)} />
             ))}
         </ol>
     );
