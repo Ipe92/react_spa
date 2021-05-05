@@ -22,9 +22,6 @@ function Tarinat(props) {
 		</div >
 	);
 }
-// Tämä saattaa olla erilainen
-export default connect(
-	(store) => ({
-		tarinat: store.tarinoita.tarinat
-	}),
-	(dispatch) => bindActionCreators(tarinaActions, dispatch))(Tarinat);
+
+export default connect(null, (dispatch) =>
+	bindActionCreators(tarinaActions, dispatch))(Tarinat);

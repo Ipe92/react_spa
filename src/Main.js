@@ -8,6 +8,7 @@ import Tarina from "./containers/Tarinat";
 import Yhteys from './containers/Yhteys/Yhteys';
 
 import store from './store';
+import MoniVeto from "./containers/MoniVeto/MoniVeto";
 
 class Main extends Component {
 	render() {
@@ -29,6 +30,9 @@ class Main extends Component {
 								<NavLink to="/yhteys">Yhteys</NavLink>
 							</li>
 							<li>
+								<NavLink to="/moniveto">Moniveto</NavLink>
+							</li>
+							<li>
 								<NavLink to="/Json">Json</NavLink>
 							</li>
 						</ul>
@@ -36,6 +40,7 @@ class Main extends Component {
 							<Route exact path="/" component={Koti} />
 							<Route path="/tarina" component={Tarina} />
 							<Route path="/yhteys" component={Yhteys} />
+							<Route path="/moniveto" component={MoniVeto} />
 							<Route path="/json" component={Json} />
 						</div>
 					</div>

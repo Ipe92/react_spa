@@ -3,7 +3,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 import ListItem from '../../../components/ListItem';
-import * as tarinaActions from '../tarinaActions';
+import * as tarinaActions from '../../MoniVeto/monivetoActions';
 
 function TarinaLista(props) {
     const { tarinat, poistaTarina } = props;

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import * as TarinaActions from '../tarinaActions';
+import * as TarinaActions from '../../MoniVeto/monivetoActions';
 
 function AddTarina(props) {
     const [uusiTarina, setUusiTarina] = useState(undefined);
