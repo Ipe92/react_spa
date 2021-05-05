@@ -22,7 +22,7 @@ function Tarinat(props) {
 		</div >
 	);
 }
-
+// Tämä saattaa olla erilainen
 export default connect(
 	(store) => ({
 		tarinat: store.tarinoita.tarinat
