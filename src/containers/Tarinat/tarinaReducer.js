@@ -10,13 +10,13 @@ function tarinaReducer(store = initialStore, action) {
                 tarinat: action.payload,
             };
         }
-        case "LISAA_TARINA": {
+        case "LISAA_TARINA_FULFILLED": {
             return {
                 ...store,
                 tarinat: [...store.tarinat, action.payload]
             };
         }
-        case "POISTA_TARINA": {
+        case "POISTA_TARINA_FULFILLED": {
             return {
                 ...store,
                 tarinat: store.tarinat.filter(

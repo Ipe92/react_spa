@@ -20,5 +20,12 @@ export function lisaaTarina(uusiTarina) {
 }
 
 export function poistaTarina(id) {
-    return { type: "POISTA_TARINA", payload: id }
-}
+    return {
+        type: "POISTA_TARINA",
+        payload: fetch(`http://localhost:4000/tarinat/${id}`, {
+            method: "DELETE",
+        }).then(() => {
+            return id;
+        }),
+    };
+};
