@@ -28,6 +28,9 @@ class Main extends Component {
 								<NavLink to="/tarina">Tarinaa</NavLink>
 							</li>
 							<li>
+								<NavLink to="/birds">Linnut</NavLink>
+							</li>
+							<li>
 								<NavLink to="/yhteys">Yhteys</NavLink>
 							</li>
 							<li>
@@ -42,6 +45,7 @@ class Main extends Component {
 							<Route path="/tarina" component={Tarina} />
 							<Route path="/yhteys" component={Yhteys} />
 							<Route path="/moniveto" component={MoniVeto} />
+							<Route path="/birds" component={Birds} />
 							<Route path="/json" component={Json} />
 						</div>
 					</div>
