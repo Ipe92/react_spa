@@ -10,4 +10,14 @@ module.exports = function (app) {
             },
         })
     );
+    app.use(
+        "/veikkausapi",
+        createProxyMiddleware({
+            target: "https://www.veikkaus.fi/api/sport-open-games/v1/",
+            changeOrigin: true,
+            pathRewrite: {
+                "^/veikkausapi/": "/",
+            },
+        })
+    );
 };

@@ -8,7 +8,7 @@ import Tarina from "./containers/Tarinat";
 import Yhteys from './containers/Yhteys/Yhteys';
 
 import store from './store';
-import MoniVeto from "./containers/MoniVeto/MoniVeto";
+import MoniVeto from "./containers/MoniVeto";
 
 class Main extends Component {
 	render() {
