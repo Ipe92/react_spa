@@ -24,5 +24,19 @@
       "title": "dhdfg",
       "id": 6
     }
+  ],
+  "birds": [
+    {
+      "id": 1,
+      "name": "Harakka"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Super",
+      "lastName": "Admin",
+      "email": "admin@example.com"
+    }
   ]
 }

@@ -9,6 +9,7 @@ import Yhteys from './containers/Yhteys/Yhteys';
 
 import store from './store';
 import MoniVeto from "./containers/MoniVeto";
+import Birds from './containers/Birds/Birds';
 
 class Main extends Component {
 	render() {
