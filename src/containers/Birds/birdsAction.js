@@ -4,3 +4,16 @@ export function getBirds() {
         payload: fetch("/api/birds").then(response => response.json()),
     };
 }
+
+export function addBird(newBird) {
+    return {
+        type: "ADD_BIRD",
+        payload: fetch("/api/birds", {
+            method: "POST",
+            headers: {
+                "Content-type": "application/json"
+            },
+            body: JSON.stringify(newBird),
+        })
+    };
+}

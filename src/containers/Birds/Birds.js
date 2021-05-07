@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 
 import ListItem from '../../components/ListItem';
 import * as birdsAction from './birdsAction';
+import AddBird from './AddBird';
 
 function Birds(props) {
 
@@ -13,11 +14,15 @@ function Birds(props) {
         getBirds();
     }, [getBirds]);
 
-    return (<ol>
-        {birds.map((bird) => (
-            <ListItem key={bird.id} title={bird.name} />
-        ))}
-    </ol>
+    return (
+        <div>
+            <AddBird />
+            <ol>
+                {birds.map((bird) => (
+                    <ListItem key={bird.id} title={bird.name} />
+                ))}
+            </ol>
+        </div>
     );
 }
 
