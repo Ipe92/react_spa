@@ -20,4 +20,4 @@ function AddBird(props) {
     );
 }
 
-export default connect(null, dispatch => bindActionCreators({ addBird }))(AddBird);
+export default connect(null, dispatch => bindActionCreators({ addBird }, dispatch))(AddBird);

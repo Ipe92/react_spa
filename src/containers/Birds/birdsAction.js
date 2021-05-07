@@ -14,6 +14,6 @@ export function addBird(newBird) {
                 "Content-type": "application/json"
             },
             body: JSON.stringify(newBird),
-        })
+        }).then(response => response.json()),
     };
 }

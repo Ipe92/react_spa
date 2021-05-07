@@ -33,6 +33,26 @@
     {
       "id": 2,
       "name": "Pääskynen"
+    },
+    {
+      "name": "Västäräkki",
+      "id": 3
+    },
+    {
+      "name": "Peippo",
+      "id": 4
+    },
+    {
+      "name": "Punatulkku",
+      "id": 5
+    },
+    {
+      "name": "Tikka",
+      "id": 6
+    },
+    {
+      "name": "Haikara",
+      "id": 7
     }
   ],
   "users": [
