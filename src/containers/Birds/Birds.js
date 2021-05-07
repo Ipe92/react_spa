@@ -8,7 +8,7 @@ import AddBird from './AddBird';
 
 function Birds(props) {
 
-    const { birds, getBirds } = props;
+    const { birds, getBirds, removeBird } = props;
 
     useEffect(() => {
         getBirds();
@@ -19,7 +19,7 @@ function Birds(props) {
             <AddBird />
             <ol>
                 {birds.map((bird) => (
-                    <ListItem key={bird.id} title={bird.name} />
+                    <ListItem key={bird.id} title={bird.name} onRemove={() => removeBird(bird.id)} />
                 ))}
             </ol>
         </div>

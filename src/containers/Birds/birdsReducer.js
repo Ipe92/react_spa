@@ -7,6 +7,11 @@ function birdsReducer(store = initialState, action) {
             return { ...store, list: action.payload };
         case "ADD_BIRD_FULFILLED":
             return { ...store, list: [...store.list, action.payload] };
+        case "REMOVE_BIRD_FULFILLED":
+            return {
+                ...store,
+                list: store.list.filter((bird) => bird.id !== action.payload)
+            };
         default:
             return store;
     }

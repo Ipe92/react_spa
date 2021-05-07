@@ -17,3 +17,14 @@ export function addBird(newBird) {
         }).then(response => response.json()),
     };
 }
+
+export function removeBird(id) {
+    return {
+        type: "REMOVE_BIRD",
+        payload: fetch(`/api/birds/${id}`, {
+            method: "DELETE",
+        }).then(() => {
+            return id;
+        }),
+    };
+}
