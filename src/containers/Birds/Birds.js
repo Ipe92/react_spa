@@ -1,23 +1,29 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+
 import ListItem from '../../components/ListItem';
+import * as birdsAction from './birdsAction';
 
 function Birds(props) {
-    const birds = [
-        {
-            "id": 1,
-            "name": "Harakka"
-        },
-        {
-            "id": 2,
-            "name": "Peipponen"
-        }
-    ];
+
+    const { birds, getBirds } = props;
+
+    useEffect(() => {
+        getBirds();
+    }, [getBirds]);
+
     return (<ol>
         {birds.map((bird) => (
-            <ListItem title={bird.name} />
+            <ListItem key={bird.id} title={bird.name} />
         ))}
     </ol>
     );
 }
 
-export default Birds;
+export default connect(
+    store => {
+        return { birds: store.birds.list };
+    },
+    dispatch => bindActionCreators(birdsAction, dispatch)
+)(Birds);
