@@ -7,7 +7,7 @@ const position = [62.600818, 29.762092];
 
 const fakeData = [
   { name: "Tori", geoJson: { lat: 62.600818, lon: 29.762092 } },
-  { name: "Iso-Myy", geoJson: { lat: 62.601934, lon: 29.763317 } },
+  { name: "Iso-Myy", geoJson: { lat: 62.601934, lon: 29.763317 } }
 ];
 
 function Kartta(props) {
