@@ -22,7 +22,7 @@ class Json extends Component {
                             </div>
                         );
                     })
-                }
+                };
             </div >
         );
     }

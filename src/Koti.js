@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import styled from 'styled-components';
 import githubJpg from './resources/images/github.jpg'
 import githubPng from './resources/images/github.png'
-import githubSvg, { ReactComponent as GithubSvgComponent } from './resources/images/github.svg'
+import githubSvg, { ReactComponent as GithubSvgComponent } from './resources/images/github.svg';
+import { MarkGithub } from '@styled-icons/octicons';
 
 const IconImg = styled.img`
     width: 64px;
@@ -20,7 +21,15 @@ const StyledGithubSvgComponent = styled(GithubSvgComponent)`
     width: 64px;
     height: 64px;
     &:hover path {
-	fill: green;
+	fill: red;
+}
+`;
+
+const StyledMarkGithub = styled(MarkGithub)`
+    width: 64px;
+    height: 64px;
+    &:hover {
+	color: red;
 }
 `;
 
@@ -41,6 +50,8 @@ class Koti extends Component {
                 <StyledGithubSvgComponent />
                 <p>PNG taustana</p>
                 <SafeGithubLogo />
+                <p>Styled icon</p>
+                <StyledMarkGithub />
             </div>
         );
     }
