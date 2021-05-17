@@ -10,6 +10,8 @@ import Yhteys from './containers/Yhteys/Yhteys';
 import store from './store';
 import MoniVeto from "./containers/MoniVeto";
 import Birds from './containers/Birds';
+import Responsive from "./containers/Responsive/Responsive";
+import Kartta from './containers/Kartta/Kartta'
 
 class Main extends Component {
 	render() {
@@ -37,6 +39,12 @@ class Main extends Component {
 								<NavLink to="/moniveto">Moniveto</NavLink>
 							</li>
 							<li>
+								<NavLink to="/responsive">Responsive</NavLink>
+							</li>
+							<li>
+								<NavLink to="/kartta">Kartta</NavLink>
+							</li>
+							<li>
 								<NavLink to="/Json">Json</NavLink>
 							</li>
 						</ul>
@@ -46,6 +54,8 @@ class Main extends Component {
 							<Route path="/yhteys" component={Yhteys} />
 							<Route path="/moniveto" component={MoniVeto} />
 							<Route path="/birds" component={Birds} />
+							<Route path="/responsive" component={Responsive} />
+							<Route path="/kartta" component={Kartta} />
 							<Route path="/json" component={Json} />
 						</div>
 					</div>
