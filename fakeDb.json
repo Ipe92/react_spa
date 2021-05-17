@@ -1,66 +1,50 @@
 {
-  "tarinat": [
-    {
-      "id": 1,
-      "title": "Listanjuttu 1"
-    },
-    {
-      "id": 2,
-      "title": "Listanjuttu 2"
-    },
-    {
-      "id": 3,
-      "title": "Listanjuttu 3"
-    },
-    {
-      "id": 4,
-      "title": "Listanjuttu 4"
-    },
-    {
-      "id": 5,
-      "title": "Listanjuttu 5"
-    },
-    {
-      "title": "dhdfg",
-      "id": 6
-    }
-  ],
-  "birds": [
-    {
-      "id": 1,
-      "name": "Harakka"
-    },
-    {
-      "id": 2,
-      "name": "Pääskynen"
-    },
-    {
-      "name": "Västäräkki",
-      "id": 3
-    },
-    {
-      "name": "Peippo",
-      "id": 4
-    },
-    {
-      "name": "Punatulkku",
-      "id": 5
-    },
-    {
-      "name": "Tikka",
-      "id": 6
-    },
-    {
-      "name": "Korppi",
-      "id": 7
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "firstName": "Super",
-      "lastName": "Admin",
-      "email": "admin@example.com"
-    }
-  ]
+	"tarinat": [
+		{
+			"id": 1,
+			"title": "Listanjuttu 1"
+		},
+		{
+			"id": 2,
+			"title": "Listanjuttu 2"
+		},
+		{
+			"id": 3,
+			"title": "Listanjuttu 3"
+		},
+		{
+			"id": 4,
+			"title": "Listanjuttu 4"
+		}
+	],
+	"birds": [
+		{
+			"id": 1,
+			"name": "Harakka"
+		},
+		{
+			"id": 2,
+			"name": "Pääskynen"
+		},
+		{
+			"name": "Västäräkki",
+			"id": 3
+		},
+		{
+			"name": "Peippo",
+			"id": 4
+		},
+		{
+			"name": "Punatulkku",
+			"id": 5
+		}
+	],
+	"users": [
+		{
+			"id": 1,
+			"firstName": "Super",
+			"lastName": "Admin",
+			"email": "admin@example.com"
+		}
+	]
 }
