@@ -1,50 +1,100 @@
 {
-	"tarinat": [
-		{
-			"id": 1,
-			"title": "Listanjuttu 1"
-		},
-		{
-			"id": 2,
-			"title": "Listanjuttu 2"
-		},
-		{
-			"id": 3,
-			"title": "Listanjuttu 3"
-		},
-		{
-			"id": 4,
-			"title": "Listanjuttu 4"
-		}
-	],
-	"birds": [
-		{
-			"id": 1,
-			"name": "Harakka"
-		},
-		{
-			"id": 2,
-			"name": "Pääskynen"
-		},
-		{
-			"name": "Västäräkki",
-			"id": 3
-		},
-		{
-			"name": "Peippo",
-			"id": 4
-		},
-		{
-			"name": "Punatulkku",
-			"id": 5
-		}
-	],
-	"users": [
-		{
-			"id": 1,
-			"firstName": "Super",
-			"lastName": "Admin",
-			"email": "admin@example.com"
-		}
-	]
+  "tarinat": [
+    {
+      "id": 1,
+      "title": "Listanjuttu 1"
+    },
+    {
+      "id": 2,
+      "title": "Listanjuttu 2"
+    },
+    {
+      "id": 3,
+      "title": "Listanjuttu 3"
+    },
+    {
+      "id": 4,
+      "title": "Listanjuttu 4"
+    }
+  ],
+  "birds": [
+    {
+      "name": "asf",
+      "genus": "",
+      "species": "",
+      "cs2015": "",
+      "cs2010": "",
+      "cs2000": "",
+      "count2015": 0,
+      "id": 1
+    },
+    {
+      "name": "pöllö",
+      "genus": "Bupo",
+      "species": "",
+      "cs2015": "",
+      "cs2010": "",
+      "cs2000": "",
+      "count2015": 0,
+      "id": 2
+    },
+    {
+      "name": "asd",
+      "genus": "asd",
+      "species": "asd",
+      "cs2015": "asd",
+      "cs2010": "",
+      "cs2000": "",
+      "count2015": 0,
+      "id": 3
+    },
+    {
+      "name": "asdasdasd",
+      "genus": "asd",
+      "species": "asd",
+      "cs2015": "CR",
+      "cs2010": "VU",
+      "cs2000": "",
+      "count2015": 0,
+      "id": 4
+    },
+    {
+      "name": "asdasdasd",
+      "genus": "asd",
+      "species": "asd",
+      "cs2015": "VU",
+      "cs2010": "VU",
+      "cs2000": "",
+      "count2015": 0,
+      "id": 5
+    },
+    {
+      "name": "asdasdasd",
+      "genus": "asd",
+      "species": "asd",
+      "cs2015": "VU",
+      "cs2010": "VU",
+      "cs2000": "",
+      "count2015": 0,
+      "id": 6
+    },
+    {
+      "name": "",
+      "genus": "",
+      "species": "",
+      "cs2015": "LC",
+      "cs2010": "LC",
+      "cs2000": "LC",
+      "count2015": 0,
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Super",
+      "lastName": "Admin",
+      "email": "admin@example.com"
+    }
+  ]
 }
