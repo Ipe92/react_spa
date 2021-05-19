@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 import { Map, Marker, Popup, TileLayer } from "react-leaflet";
+import { icon as leafletIcon } from "leaflet";
 //import "leaflet/dist/leaflet.css";
 
 import gitHub from "../../resources/images/github.jpg";
 const position = [62.600818, 29.762092];
-
 const fakeData = [
   {
     name: "Tori",
@@ -35,6 +35,12 @@ function Kartta(props) {
       },
     ]);
   };
+  const customMarkerIcon = leafletIcon({
+    iconUrl: gitHub,
+    iconSize: [16, 16],
+    iconAnchor: [12, 12],
+    popupAnchor: [-3, -36],
+  });
   return (
     <Map
       style={{ height: "400px" }}
@@ -53,6 +59,7 @@ function Kartta(props) {
         <Marker
           key={JSON.stringify(location.geoJson)}
           position={[location.geoJson.lat, location.geoJson.lng]}
+          icon={customMarkerIcon}
         >
           <Popup>
             <img src={location.image} />
