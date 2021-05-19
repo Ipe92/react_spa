@@ -1,40 +1,50 @@
 {
-  "tarinat": [
-    {
-      "id": 1,
-      "title": "Listanjuttu 1"
-    },
-    {
-      "id": 2,
-      "title": "Listanjuttu 2"
-    },
-    {
-      "id": 3,
-      "title": "Listanjuttu 3"
-    },
-    {
-      "id": 4,
-      "title": "Listanjuttu 4"
-    }
-  ],
-  "birds": [
-    {
-      "name": "asd",
-      "genus": "asd",
-      "species": "asd",
-      "cs2015": "LC",
-      "cs2010": "LC",
-      "cs2000": "LC",
-      "count2015": 0,
-      "id": 2
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "firstName": "Super",
-      "lastName": "Admin",
-      "email": "admin@example.com"
-    }
-  ]
+    "tarinat": [
+        {
+            "id": 1,
+            "title": "Listanjuttu 1"
+        },
+        {
+            "id": 2,
+            "title": "Listanjuttu 2"
+        },
+        {
+            "id": 3,
+            "title": "Listanjuttu 3"
+        },
+        {
+            "id": 4,
+            "title": "Listanjuttu 4"
+        }
+    ],
+    "birds": [
+        {
+            "name": "Kaakkuri",
+            "genus": "Gavia",
+            "species": "stellata",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "NT",
+            "count2015": 3000,
+            "id": 3
+        },
+        {
+            "name": "Kuikka",
+            "genus": "Gavia",
+            "species": "arctica",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 26000,
+            "id": 4
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "firstName": "Super",
+            "lastName": "Admin",
+            "email": "admin@example.com"
+        }
+    ]
 }

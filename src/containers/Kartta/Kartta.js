@@ -62,7 +62,7 @@ function Kartta(props) {
           icon={customMarkerIcon}
         >
           <Popup>
-            <img src={location.image} />
+            <img src={location.image} alt="paikka" />
             {location.name}
           </Popup>
         </Marker>
