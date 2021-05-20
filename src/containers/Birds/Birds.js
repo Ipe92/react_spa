@@ -3,6 +3,7 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import { useTable } from "react-table";
 import { Table } from "react-bootstrap";
+import { Trash } from "@styled-icons/octicons";
 
 import * as birdsAction from "./birdsAction";
 import AddBird from "./AddBird";
@@ -47,7 +48,6 @@ function Birds(props) {
         ],
         [],
     );
-
     const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable({ columns, data: birds });
 
     return (
@@ -60,6 +60,7 @@ function Birds(props) {
                             {headerGroup.headers.map((column) => (
                                 <th {...column.getHeaderProps()}>{column.render("Header")}</th>
                             ))}
+                            <th>Toiminnot</th>
                         </tr>
                     ))}
                 </thead>
@@ -73,6 +74,12 @@ function Birds(props) {
                                 {row.cells.map((cell) => {
                                     return <td {...cell.getCellProps()}>{cell.render("Cell")}</td>;
                                 })}
+                                <td>
+                                    <Trash
+                                        style={{ heigth: "20px", width: "20px", cursor: "pointer" }}
+                                        onClick={() => removeBird(row.original.id)}
+                                    />
+                                </td>
                             </tr>
                         );
                     })}

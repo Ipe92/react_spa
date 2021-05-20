@@ -2,6 +2,7 @@ import React from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import Form from "@rjsf/core";
+import { Button } from "react-bootstrap";
 
 import { addBird } from "./birdsAction";
 
@@ -60,7 +61,7 @@ function AddBird(props) {
 
     return (
         <Form schema={schema} formData={defaultFormData} onSubmit={(event) => onSubmit(event)}>
-            <button type="submit">Lisää</button>
+            <Button type="submit">Lisää</Button>
         </Form>
     );
 }
