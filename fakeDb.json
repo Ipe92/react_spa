@@ -25,8 +25,7 @@
             "cs2015": "LC",
             "cs2010": "NT",
             "cs2000": "NT",
-            "count2015": 3000,
-            "id": 1
+            "count2015": 3000
         },
         {
             "name": "Kuikka",
@@ -35,8 +34,2230 @@
             "cs2015": "LC",
             "cs2010": "LC",
             "cs2000": "LC",
-            "count2015": 26000,
-            "id": 2
+            "count2015": 26000
+        },
+        {
+            "name": "Pikku-uikku",
+            "genus": "Tachybaptus",
+            "species": "ruficollis",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "NE",
+            "count2015": 40
+        },
+        {
+            "name": "Silkkiuikku",
+            "genus": "Podiceps",
+            "species": "cristatus",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 74000
+        },
+        {
+            "name": "Härkälintu",
+            "genus": "Podiceps",
+            "species": "grisegena",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 18800
+        },
+        {
+            "name": "Mustakurkku-uikku",
+            "genus": "Podiceps",
+            "species": "auritus",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 6600
+        },
+        {
+            "name": "Merimetso",
+            "genus": "Phalacrocorax",
+            "species": "carbo",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NE",
+            "count2015": 48000
+        },
+        {
+            "name": "Kaulushaikara",
+            "genus": "Botaurus",
+            "species": "stellaris",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 3000
+        },
+        {
+            "name": "Harmaahaikara",
+            "genus": "Ardea",
+            "species": "cinerea",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 2000
+        },
+        {
+            "name": "Kyhmyjoutsen",
+            "genus": "Cygnus",
+            "species": "olor",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 33800
+        },
+        {
+            "name": "Laulujoutsen",
+            "genus": "Cygnus",
+            "species": "cygnus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 22000
+        },
+        {
+            "name": "Metsähanhi",
+            "genus": "Anser",
+            "species": "fabalis",
+            "cs2015": "VU",
+            "cs2010": "NT",
+            "cs2000": "NT",
+            "count2015": 5000
+        },
+        {
+            "name": "Kiljuhanhi",
+            "genus": "Anser",
+            "species": "erythropus",
+            "cs2015": "CR",
+            "cs2010": "CR",
+            "cs2000": "CR",
+            "count2015": 10
+        },
+        {
+            "name": "Merihanhi",
+            "genus": "Anser",
+            "species": "anser",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 9000
+        },
+        {
+            "name": "Kanadanhanhi",
+            "genus": "Branta",
+            "species": "canadensis",
+            "cs2015": "NA",
+            "cs2010": "NA",
+            "cs2000": "NE",
+            "count2015": 16000
+        },
+        {
+            "name": "Valkoposkihanhi",
+            "genus": "Branta",
+            "species": "leucopsis",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NE",
+            "count2015": 10000
+        },
+        {
+            "name": "Ristisorsa",
+            "genus": "Tadorna",
+            "species": "tadorna",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "NT",
+            "count2015": 800
+        },
+        {
+            "name": "Haapana",
+            "genus": "Anas",
+            "species": "penelope",
+            "cs2015": "VU",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 166000
+        },
+        {
+            "name": "Harmaasorsa",
+            "genus": "Anas",
+            "species": "strepera",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 2000
+        },
+        {
+            "name": "Tavi",
+            "genus": "Anas",
+            "species": "crecca",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 500000
+        },
+        {
+            "name": "Sinisorsa",
+            "genus": "Anas",
+            "species": "platyrhynchos",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 440000
+        },
+        {
+            "name": "Jouhisorsa",
+            "genus": "Anas",
+            "species": "acuta",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 32000
+        },
+        {
+            "name": "Heinätavi",
+            "genus": "Anas",
+            "species": "querquedula",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 9800
+        },
+        {
+            "name": "Lapasorsa",
+            "genus": "Anas",
+            "species": "clypeata",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 36000
+        },
+        {
+            "name": "Punasotka",
+            "genus": "Aythya",
+            "species": "ferina",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 32000
+        },
+        {
+            "name": "Tukkasotka",
+            "genus": "Aythya",
+            "species": "fuligula",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 120000
+        },
+        {
+            "name": "Lapasotka",
+            "genus": "Aythya",
+            "species": "marila",
+            "cs2015": "EN",
+            "cs2010": "EN",
+            "cs2000": "VU",
+            "count2015": 1200
+        },
+        {
+            "name": "Haahka",
+            "genus": "Somateria",
+            "species": "mollissima",
+            "cs2015": "VU",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 265200
+        },
+        {
+            "name": "Alli",
+            "genus": "Clangula",
+            "species": "hyemalis",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 4000
+        },
+        {
+            "name": "Mustalintu",
+            "genus": "Melanitta",
+            "species": "nigra",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 4000
+        },
+        {
+            "name": "Pilkkasiipi",
+            "genus": "Melanitta",
+            "species": "fusca",
+            "cs2015": "EN",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 23600
+        },
+        {
+            "name": "Telkkä",
+            "genus": "Bucephala",
+            "species": "clangula",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 500000
+        },
+        {
+            "name": "Uivelo",
+            "genus": "Mergus",
+            "species": "albellus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 11000
+        },
+        {
+            "name": "Tukkakoskelo",
+            "genus": "Mergus",
+            "species": "serrator",
+            "cs2015": "EN",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 70000
+        },
+        {
+            "name": "Isokoskelo",
+            "genus": "Mergus",
+            "species": "merganser",
+            "cs2015": "VU",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 60000
+        },
+        {
+            "name": "Mehiläishaukka",
+            "genus": "Pernis",
+            "species": "apivorus",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "NT",
+            "count2015": 3100
+        },
+        {
+            "name": "Haarahaukka",
+            "genus": "Milvus",
+            "species": "migrans",
+            "cs2015": "CR",
+            "cs2010": "CR",
+            "cs2000": "EN",
+            "count2015": 40
+        },
+        {
+            "name": "Merikotka",
+            "genus": "Haliaeetus",
+            "species": "albicilla",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "VU",
+            "count2015": 958
+        },
+        {
+            "name": "Ruskosuohaukka",
+            "genus": "Circus",
+            "species": "aeruginosus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 2000
+        },
+        {
+            "name": "Sinisuohaukka",
+            "genus": "Circus",
+            "species": "cyaneus",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "NT",
+            "count2015": 2900
+        },
+        {
+            "name": "Arosuohaukka",
+            "genus": "Circus",
+            "species": "macrourus",
+            "cs2015": "EN",
+            "cs2010": "NA",
+            "cs2000": "–",
+            "count2015": 20
+        },
+        {
+            "name": "Niittysuohaukka",
+            "genus": "Circus",
+            "species": "pygargus",
+            "cs2015": "EN",
+            "cs2010": "EN",
+            "cs2000": "NE",
+            "count2015": 18
+        },
+        {
+            "name": "Kanahaukka",
+            "genus": "Accipiter",
+            "species": "gentilis",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 8600
+        },
+        {
+            "name": "Varpushaukka",
+            "genus": "Accipiter",
+            "species": "nisus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 11000
+        },
+        {
+            "name": "Hiirihaukka",
+            "genus": "Buteo",
+            "species": "buteo",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 6100
+        },
+        {
+            "name": "Piekana",
+            "genus": "Buteo",
+            "species": "lagopus",
+            "cs2015": "EN",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 380
+        },
+        {
+            "name": "Kiljukotka",
+            "genus": "Aquila",
+            "species": "clanga",
+            "cs2015": "CR",
+            "cs2010": "CR",
+            "cs2000": "RE",
+            "count2015": 2
+        },
+        {
+            "name": "Maakotka",
+            "genus": "Aquila",
+            "species": "chrysaetos",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "VU",
+            "count2015": 700
+        },
+        {
+            "name": "Sääksi",
+            "genus": "Pandion",
+            "species": "haliaetus",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "NT",
+            "count2015": 1300
+        },
+        {
+            "name": "Tuulihaukka",
+            "genus": "Falco",
+            "species": "tinnunculus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 14000
+        },
+        {
+            "name": "Punajalkahaukka",
+            "genus": "Falco",
+            "species": "vespertinus",
+            "cs2015": "NA",
+            "cs2010": "NA",
+            "cs2000": "–",
+            "count2015": null
+        },
+        {
+            "name": "Ampuhaukka",
+            "genus": "Falco",
+            "species": "columbarius",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "VU",
+            "count2015": 6900
+        },
+        {
+            "name": "Nuolihaukka",
+            "genus": "Falco",
+            "species": "subbuteo",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 6000
+        },
+        {
+            "name": "Tunturihaukka",
+            "genus": "Falco",
+            "species": "rusticolus",
+            "cs2015": "CR",
+            "cs2010": "EN",
+            "cs2000": "EN",
+            "count2015": 64
+        },
+        {
+            "name": "Muuttohaukka",
+            "genus": "Falco",
+            "species": "peregrinus",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "EN",
+            "count2015": 388
+        },
+        {
+            "name": "Pyy",
+            "genus": "Bonasa",
+            "species": "bonasia",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 590000
+        },
+        {
+            "name": "Riekko",
+            "genus": "Lagopus",
+            "species": "lagopus",
+            "cs2015": "VU",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 180000
+        },
+        {
+            "name": "Kiiruna",
+            "genus": "Lagopus",
+            "species": "muta",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 13000
+        },
+        {
+            "name": "Teeri",
+            "genus": "Tetrao",
+            "species": "tetrix",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "NT",
+            "count2015": 480000
+        },
+        {
+            "name": "Metso",
+            "genus": "Tetrao",
+            "species": "urogallus",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "NT",
+            "count2015": 540000
+        },
+        {
+            "name": "Peltopyy",
+            "genus": "Perdix",
+            "species": "perdix",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 18000
+        },
+        {
+            "name": "Viiriäinen",
+            "genus": "Coturnix",
+            "species": "coturnix",
+            "cs2015": "VU",
+            "cs2010": "EN",
+            "cs2000": "RE",
+            "count2015": 1000
+        },
+        {
+            "name": "Fasaani",
+            "genus": "Phasianus",
+            "species": "colchicus",
+            "cs2015": "NA",
+            "cs2010": "NA",
+            "cs2000": "NE",
+            "count2015": 19000
+        },
+        {
+            "name": "Luhtakana",
+            "genus": "Rallus",
+            "species": "aquaticus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 1600
+        },
+        {
+            "name": "Luhtahuitti",
+            "genus": "Porzana",
+            "species": "porzana",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 2600
+        },
+        {
+            "name": "Pikkuhuitti",
+            "genus": "Porzana",
+            "species": "parva",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "NE",
+            "count2015": 20
+        },
+        {
+            "name": "Ruisrääkkä",
+            "genus": "Crex",
+            "species": "crex",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 24000
+        },
+        {
+            "name": "Liejukana",
+            "genus": "Gallinula",
+            "species": "chloropus",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "VU",
+            "count2015": 400
+        },
+        {
+            "name": "Nokikana",
+            "genus": "Fulica",
+            "species": "atra",
+            "cs2015": "EN",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 18200
+        },
+        {
+            "name": "Kurki",
+            "genus": "Grus",
+            "species": "grus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 79000
+        },
+        {
+            "name": "Meriharakka",
+            "genus": "Haematopus",
+            "species": "ostralegus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 9800
+        },
+        {
+            "name": "Pikkutylli",
+            "genus": "Charadrius",
+            "species": "dubius",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 9100
+        },
+        {
+            "name": "Tylli",
+            "genus": "Charadrius",
+            "species": "hiaticula",
+            "cs2015": "NT",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 12000
+        },
+        {
+            "name": "Keräkurmitsa",
+            "genus": "Charadrius",
+            "species": "morinellus",
+            "cs2015": "VU",
+            "cs2010": "NT",
+            "cs2000": "NT",
+            "count2015": 6000
+        },
+        {
+            "name": "Kapustarinta",
+            "genus": "Pluvialis",
+            "species": "apricaria",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 210000
+        },
+        {
+            "name": "Töyhtöhyyppä",
+            "genus": "Vanellus",
+            "species": "vanellus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 230000
+        },
+        {
+            "name": "Pikkusirri",
+            "genus": "Calidris",
+            "species": "minuta",
+            "cs2015": "EN",
+            "cs2010": "NA",
+            "cs2000": "NE",
+            "count2015": 10
+        },
+        {
+            "name": "Lapinsirri",
+            "genus": "Calidris",
+            "species": "temminckii",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "VU",
+            "count2015": 4000
+        },
+        {
+            "name": "Merisirri",
+            "genus": "Calidris",
+            "species": "maritima",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "VU",
+            "count2015": 60
+        },
+        {
+            "name": "Suosirri",
+            "genus": "Calidris",
+            "species": "alpina",
+            "cs2015": "alpina",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 20000
+        },
+        {
+            "name": "Etelänsuosirri",
+            "genus": "Calidris",
+            "species": "alpina",
+            "cs2015": "schinzii",
+            "cs2010": "EN",
+            "cs2000": "CR",
+            "count2015": 120
+        },
+        {
+            "name": "Jänkäsirriäinen",
+            "genus": "Calidris",
+            "species": "falcinellus",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 52000
+        },
+        {
+            "name": "Suokukko",
+            "genus": "Calidris",
+            "species": "pugnax",
+            "cs2015": "CR",
+            "cs2010": "EN",
+            "cs2000": "NT",
+            "count2015": 25000
+        },
+        {
+            "name": "Jänkäkurppa",
+            "genus": "Lymnocryptes",
+            "species": "minimus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 12000
+        },
+        {
+            "name": "Taivaanvuohi",
+            "genus": "Gallinago",
+            "species": "gallinago",
+            "cs2015": "VU",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 250000
+        },
+        {
+            "name": "Heinäkurppa",
+            "genus": "Gallinago",
+            "species": "media",
+            "cs2015": "CR",
+            "cs2010": "CR",
+            "cs2000": "RE",
+            "count2015": null
+        },
+        {
+            "name": "Lehtokurppa",
+            "genus": "Scolopax",
+            "species": "rusticola",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 400000
+        },
+        {
+            "name": "Mustapyrstökuiri",
+            "genus": "Limosa",
+            "species": "limosa",
+            "cs2015": "EN",
+            "cs2010": "EN",
+            "cs2000": "EN",
+            "count2015": 260
+        },
+        {
+            "name": "Punakuiri",
+            "genus": "Limosa",
+            "species": "lapponica",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 6000
+        },
+        {
+            "name": "Pikkukuovi",
+            "genus": "Numenius",
+            "species": "phaeopus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 74000
+        },
+        {
+            "name": "Kuovi",
+            "genus": "Numenius",
+            "species": "arquata",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 160000
+        },
+        {
+            "name": "Mustaviklo",
+            "genus": "Tringa",
+            "species": "erythropus",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 25000
+        },
+        {
+            "name": "Punajalkaviklo",
+            "genus": "Tringa",
+            "species": "totanus",
+            "cs2015": "VU",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 12000
+        },
+        {
+            "name": "Lampiviklo",
+            "genus": "Tringa",
+            "species": "stagnatilis",
+            "cs2015": "VU",
+            "cs2010": "NA",
+            "cs2000": "–",
+            "count2015": 10
+        },
+        {
+            "name": "Valkoviklo",
+            "genus": "Tringa",
+            "species": "nebularia",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 110000
+        },
+        {
+            "name": "Metsäviklo",
+            "genus": "Tringa",
+            "species": "ochropus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 340000
+        },
+        {
+            "name": "Liro",
+            "genus": "Tringa",
+            "species": "glareola",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 770000
+        },
+        {
+            "name": "Rantakurvi",
+            "genus": "Xenus",
+            "species": "cinereus",
+            "cs2015": "CR",
+            "cs2010": "CR",
+            "cs2000": "CR",
+            "count2015": 10
+        },
+        {
+            "name": "Rantasipi",
+            "genus": "Actitis",
+            "species": "hypoleuca",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 360000
+        },
+        {
+            "name": "Karikukko",
+            "genus": "Arenaria",
+            "species": "interpres",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 4600
+        },
+        {
+            "name": "Vesipääsky",
+            "genus": "Phalaropus",
+            "species": "lobatus",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 18000
+        },
+        {
+            "name": "Merikihu",
+            "genus": "Stercorarius",
+            "species": "parasiticus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 1200
+        },
+        {
+            "name": "Tunturikihu",
+            "genus": "Stercorarius",
+            "species": "longicaudus",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 10000
+        },
+        {
+            "name": "Pikkulokki",
+            "genus": "Larus",
+            "species": "minutus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 26000
+        },
+        {
+            "name": "Naurulokki",
+            "genus": "Larus",
+            "species": "ridibundus",
+            "cs2015": "VU",
+            "cs2010": "NT",
+            "cs2000": "VU",
+            "count2015": 200000
+        },
+        {
+            "name": "Kalalokki",
+            "genus": "Larus",
+            "species": "canus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 180000
+        },
+        {
+            "name": "Selkälokki",
+            "genus": "Larus",
+            "species": "fuscus",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "VU",
+            "count2015": 16000
+        },
+        {
+            "name": "Harmaalokki",
+            "genus": "Larus",
+            "species": "argentatus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 70000
+        },
+        {
+            "name": "Merilokki",
+            "genus": "Larus",
+            "species": "marinus",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 5400
+        },
+        {
+            "name": "Räyskä",
+            "genus": "Sterna",
+            "species": "caspia",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "VU",
+            "count2015": 2200
+        },
+        {
+            "name": "Kalatiira",
+            "genus": "Sterna",
+            "species": "hirundo",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 140000
+        },
+        {
+            "name": "Lapintiira",
+            "genus": "Sterna",
+            "species": "paradisaea",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 180000
+        },
+        {
+            "name": "Pikkutiira",
+            "genus": "Sterna",
+            "species": "albifrons",
+            "cs2015": "EN",
+            "cs2010": "EN",
+            "cs2000": "EN",
+            "count2015": 144
+        },
+        {
+            "name": "Mustatiira",
+            "genus": "Chlidonias",
+            "species": "niger",
+            "cs2015": "CR",
+            "cs2010": "EN",
+            "cs2000": "VU",
+            "count2015": 50
+        },
+        {
+            "name": "Etelänkiisla",
+            "genus": "Uria",
+            "species": "aalge",
+            "cs2015": "EN",
+            "cs2010": "EN",
+            "cs2000": "VU",
+            "count2015": 260
+        },
+        {
+            "name": "Ruokki",
+            "genus": "Alca",
+            "species": "torda",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 23400
+        },
+        {
+            "name": "Riskilä",
+            "genus": "Cepphus",
+            "species": "grylle",
+            "cs2015": "EN",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 22400
+        },
+        {
+            "name": "Kesykyyhky",
+            "genus": "Columba",
+            "species": "livia",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 40000
+        },
+        {
+            "name": "Uuttukyyhky",
+            "genus": "Columba",
+            "species": "oenas",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 11000
+        },
+        {
+            "name": "Sepelkyyhky",
+            "genus": "Columba",
+            "species": "palumbus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 600000
+        },
+        {
+            "name": "Turkinkyyhky",
+            "genus": "Sreptopelia",
+            "species": "decaocto",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "VU",
+            "count2015": 400
+        },
+        {
+            "name": "Turturikyyhky",
+            "genus": "Sreptopelia",
+            "species": "turtur",
+            "cs2015": "CR",
+            "cs2010": "CR",
+            "cs2000": "VU",
+            "count2015": 20
+        },
+        {
+            "name": "Käki",
+            "genus": "Cuculus",
+            "species": "canorus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 220000
+        },
+        {
+            "name": "Huuhkaja",
+            "genus": "Bubo",
+            "species": "bubo",
+            "cs2015": "EN",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 1500
+        },
+        {
+            "name": "Tunturipöllö",
+            "genus": "Bubo",
+            "species": "scandiaca",
+            "cs2015": "CR",
+            "cs2010": "CR",
+            "cs2000": "EN",
+            "count2015": 20
+        },
+        {
+            "name": "Hiiripöllö",
+            "genus": "Surnia",
+            "species": "ulula",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 9800
+        },
+        {
+            "name": "Varpuspöllö",
+            "genus": "Glaucidium",
+            "species": "passerinum",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 7100
+        },
+        {
+            "name": "Lehtopöllö",
+            "genus": "Strix",
+            "species": "aluco",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 2300
+        },
+        {
+            "name": "Viirupöllö",
+            "genus": "Strix",
+            "species": "uralensis",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 8300
+        },
+        {
+            "name": "Lapinpöllö",
+            "genus": "Strix",
+            "species": "nebulosa",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 4200
+        },
+        {
+            "name": "Sarvipöllö",
+            "genus": "Asio",
+            "species": "otus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 4400
+        },
+        {
+            "name": "Suopöllö",
+            "genus": "Asio",
+            "species": "flammeus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 5900
+        },
+        {
+            "name": "Helmipöllö",
+            "genus": "Aegolius",
+            "species": "funereus",
+            "cs2015": "NT",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 8500
+        },
+        {
+            "name": "Kehrääjä",
+            "genus": "Caprimulgus",
+            "species": "europaeus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 10000
+        },
+        {
+            "name": "Tervapääsky",
+            "genus": "Apus",
+            "species": "apus",
+            "cs2015": "VU",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 39000
+        },
+        {
+            "name": "Kuningaskalastaja",
+            "genus": "Alcedo",
+            "species": "atthis",
+            "cs2015": "CR",
+            "cs2010": "CR",
+            "cs2000": "NE",
+            "count2015": 30
+        },
+        {
+            "name": "Käenpiika",
+            "genus": "Jynx",
+            "species": "torquilla",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "VU",
+            "count2015": 25000
+        },
+        {
+            "name": "Harmaapäätikka",
+            "genus": "Picus",
+            "species": "canus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 7500
+        },
+        {
+            "name": "Palokärki",
+            "genus": "Dryocopus",
+            "species": "martius",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 63000
+        },
+        {
+            "name": "Käpytikka",
+            "genus": "Dendrocopos",
+            "species": "major",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 820000
+        },
+        {
+            "name": "Valkoselkätikka",
+            "genus": "Dendrocopos",
+            "species": "leucotos",
+            "cs2015": "VU",
+            "cs2010": "EN",
+            "cs2000": "CR",
+            "count2015": 380
+        },
+        {
+            "name": "Pikkutikka",
+            "genus": "Dendrocopos",
+            "species": "minor",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "VU",
+            "count2015": 7800
+        },
+        {
+            "name": "Pohjantikka",
+            "genus": "Picoides",
+            "species": "tridactylus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 54000
+        },
+        {
+            "name": "Kangaskiuru",
+            "genus": "Lullula",
+            "species": "arborea",
+            "cs2015": "VU",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 8400
+        },
+        {
+            "name": "Kiuru",
+            "genus": "Alauda",
+            "species": "arvensis",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 450000
+        },
+        {
+            "name": "Tunturikiuru",
+            "genus": "Eremophila",
+            "species": "alpestris",
+            "cs2015": "CR",
+            "cs2010": "CR",
+            "cs2000": "CR",
+            "count2015": 20
+        },
+        {
+            "name": "Törmäpääsky",
+            "genus": "Riparia",
+            "species": "riparia",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 46000
+        },
+        {
+            "name": "Haarapääsky",
+            "genus": "Hirundo",
+            "species": "rustica",
+            "cs2015": "NT",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 270000
+        },
+        {
+            "name": "Räystäspääsky",
+            "genus": "Delichon",
+            "species": "urbicum",
+            "cs2015": "EN",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 140000
+        },
+        {
+            "name": "Metsäkirvinen",
+            "genus": "Anthus",
+            "species": "trivialis",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 3500000
+        },
+        {
+            "name": "Niittykirvinen",
+            "genus": "Anthus",
+            "species": "pratensis",
+            "cs2015": "NT",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 1100000
+        },
+        {
+            "name": "Lapinkirvinen",
+            "genus": "Anthus",
+            "species": "cervinus",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 4000
+        },
+        {
+            "name": "Luotokirvinen",
+            "genus": "Anthus",
+            "species": "petrosus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 3800
+        },
+        {
+            "name": "Keltavästäräkki",
+            "genus": "Motacilla",
+            "species": "flava",
+            "cs2015": "NT",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 11
+        },
+        {
+            "name": "Sitruunavästäräkki",
+            "genus": "Motacilla",
+            "species": "citreola",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "–",
+            "count2015": 60
+        },
+        {
+            "name": "Virtavästäräkki",
+            "genus": "Motacilla",
+            "species": "cinerea",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "NE",
+            "count2015": 120
+        },
+        {
+            "name": "Västäräkki",
+            "genus": "Motacilla",
+            "species": "alba",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 990000
+        },
+        {
+            "name": "Tilhi",
+            "genus": "Bombycilla",
+            "species": "garrulus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 160000
+        },
+        {
+            "name": "Koskikara",
+            "genus": "Cinclus",
+            "species": "cinclus",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "NT",
+            "count2015": 700
+        },
+        {
+            "name": "Peukaloinen",
+            "genus": "Troglodytes",
+            "species": "troglodytes",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 220000
+        },
+        {
+            "name": "Rautiainen",
+            "genus": "Prunella",
+            "species": "modularis",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 970000
+        },
+        {
+            "name": "Punarinta",
+            "genus": "Erithacus",
+            "species": "rubecula",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 4600000
+        },
+        {
+            "name": "Satakieli",
+            "genus": "Luscinia",
+            "species": "luscinia",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 42000
+        },
+        {
+            "name": "Sinirinta",
+            "genus": "Luscinia",
+            "species": "svecica",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 110000
+        },
+        {
+            "name": "Sinipyrstö",
+            "genus": "Tarsiger",
+            "species": "cyanurus",
+            "cs2015": "NT",
+            "cs2010": "VU",
+            "cs2000": "VU",
+            "count2015": 5200
+        },
+        {
+            "name": "Mustaleppälintu",
+            "genus": "Phoenicurus",
+            "species": "ochruros",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "NE",
+            "count2015": 600
+        },
+        {
+            "name": "Leppälintu",
+            "genus": "Phoenicurus",
+            "species": "phoenicurus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 1200000
+        },
+        {
+            "name": "Pensastasku",
+            "genus": "Saxicola",
+            "species": "rubetra",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 460000
+        },
+        {
+            "name": "Kivitasku",
+            "genus": "Oenanthe",
+            "species": "oenanthe",
+            "cs2015": "NT",
+            "cs2010": "VU",
+            "cs2000": "NT",
+            "count2015": 160000
+        },
+        {
+            "name": "Sepelrastas",
+            "genus": "Turdus",
+            "species": "torquatus",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "NT",
+            "count2015": 300
+        },
+        {
+            "name": "Mustarastas",
+            "genus": "Turdus",
+            "species": "merula",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 1200000
+        },
+        {
+            "name": "Räkättirastas",
+            "genus": "Turdus",
+            "species": "pilaris",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 32
+        },
+        {
+            "name": "Laulurastas",
+            "genus": "Turdus",
+            "species": "philomelos",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 2000000
+        },
+        {
+            "name": "Punakylkirastas",
+            "genus": "Turdus",
+            "species": "iliacus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 2800000
+        },
+        {
+            "name": "Kulorastas",
+            "genus": "Turdus",
+            "species": "viscivorus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 310000
+        },
+        {
+            "name": "Pensassirkkalintu",
+            "genus": "Locustella",
+            "species": "naevia",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 3900
+        },
+        {
+            "name": "Viitasirkkalintu",
+            "genus": "Locustella",
+            "species": "fluviatilis",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 4900
+        },
+        {
+            "name": "Ruokosirkkalintu",
+            "genus": "Locustella",
+            "species": "luscinioides",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "–",
+            "count2015": 20
+        },
+        {
+            "name": "Ruokokerttunen",
+            "genus": "Acrocephalus",
+            "species": "schoenobaenus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 210000
+        },
+        {
+            "name": "Viitakerttunen",
+            "genus": "Acrocephalus",
+            "species": "dumetorum",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 85000
+        },
+        {
+            "name": "Luhtakerttunen",
+            "genus": "Acrocephalus",
+            "species": "palustris",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 41000
+        },
+        {
+            "name": "Rytikerttunen",
+            "genus": "Acrocephalus",
+            "species": "scirpaceus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 50000
+        },
+        {
+            "name": "Rastaskerttunen",
+            "genus": "Acrocephalus",
+            "species": "arundinaceus",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "VU",
+            "count2015": 1000
+        },
+        {
+            "name": "Pikkukultarinta",
+            "genus": "Iduna",
+            "species": "caligata",
+            "cs2015": "VU",
+            "cs2010": "VU",
+            "cs2000": "–",
+            "count2015": 100
+        },
+        {
+            "name": "Kultarinta",
+            "genus": "Hippolais",
+            "species": "icterina",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 49000
+        },
+        {
+            "name": "Kirjokerttu",
+            "genus": "Sylvia",
+            "species": "nisoria",
+            "cs2015": "VU",
+            "cs2010": "EN",
+            "cs2000": "LC",
+            "count2015": 1600
+        },
+        {
+            "name": "Hernekerttu",
+            "genus": "Sylvia",
+            "species": "curruca",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 590000
+        },
+        {
+            "name": "Pensaskerttu",
+            "genus": "Sylvia",
+            "species": "communis",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 700000
+        },
+        {
+            "name": "Lehtokerttu",
+            "genus": "Sylvia",
+            "species": "borin",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 1700000
+        },
+        {
+            "name": "Mustapääkerttu",
+            "genus": "Sylvia",
+            "species": "atricapilla",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 220000
+        },
+        {
+            "name": "Idänuunilintu",
+            "genus": "Phylloscopus",
+            "species": "trochiloides",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 50000
+        },
+        {
+            "name": "Lapinuunilintu",
+            "genus": "Phylloscopus",
+            "species": "borealis",
+            "cs2015": "VU",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 4000
+        },
+        {
+            "name": "Sirittäjä",
+            "genus": "Phylloscopus",
+            "species": "sibilatrix",
+            "cs2015": "LC",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 400000
+        },
+        {
+            "name": "Tiltaltti",
+            "genus": "Phylloscopus",
+            "species": "collybita",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "VU",
+            "count2015": 650000
+        },
+        {
+            "name": "Pajulintu",
+            "genus": "Phylloscopus",
+            "species": "trochilus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 14000000
+        },
+        {
+            "name": "Hippiäinen",
+            "genus": "Regulus",
+            "species": "regulus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 2100000
+        },
+        {
+            "name": "Harmaasieppo",
+            "genus": "Muscicapa",
+            "species": "striata",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 3400000
+        },
+        {
+            "name": "Pikkusieppo",
+            "genus": "Ficedula",
+            "species": "parva",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 23000
+        },
+        {
+            "name": "Kirjosieppo",
+            "genus": "Ficedula",
+            "species": "hypoleuca",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 1000000
+        },
+        {
+            "name": "Viiksitimali",
+            "genus": "Panurus",
+            "species": "biarmicus",
+            "cs2015": "VU",
+            "cs2010": "NT",
+            "cs2000": "NT",
+            "count2015": 2000
+        },
+        {
+            "name": "Pyrstötiainen",
+            "genus": "Aegithalos",
+            "species": "caudatus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 72000
+        },
+        {
+            "name": "Hömötiainen",
+            "genus": "Poecile",
+            "species": "montanus",
+            "cs2015": "VU",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 1400000
+        },
+        {
+            "name": "Lapintiainen",
+            "genus": "Poecile",
+            "species": "cinctus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 160000
+        },
+        {
+            "name": "Töyhtötiainen",
+            "genus": "Lophophanes",
+            "species": "cristatus",
+            "cs2015": "VU",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 870000
+        },
+        {
+            "name": "Kuusitiainen",
+            "genus": "Periparus",
+            "species": "ater",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 130000
+        },
+        {
+            "name": "Sinitiainen",
+            "genus": "Cyanistes",
+            "species": "caeruleus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 1300000
+        },
+        {
+            "name": "Talitiainen",
+            "genus": "Parus",
+            "species": "major",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 3700000
+        },
+        {
+            "name": "Pähkinänakkeli",
+            "genus": "Sitta",
+            "species": "europaea",
+            "cs2015": "VU",
+            "cs2010": "NA",
+            "cs2000": "–",
+            "count2015": 40
+        },
+        {
+            "name": "Puukiipijä",
+            "genus": "Certhia",
+            "species": "familiaris",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 470000
+        },
+        {
+            "name": "Pussitiainen",
+            "genus": "Remiz",
+            "species": "pendulinus",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "–",
+            "count2015": 30
+        },
+        {
+            "name": "Kuhankeittäjä",
+            "genus": "Oriolus",
+            "species": "oriolus",
+            "cs2015": "EN",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 7100
+        },
+        {
+            "name": "Pikkulepinkäinen",
+            "genus": "Lanius",
+            "species": "collurio",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 120000
+        },
+        {
+            "name": "Isolepinkäinen",
+            "genus": "Lanius",
+            "species": "excubitor",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 18000
+        },
+        {
+            "name": "Närhi",
+            "genus": "Garrulus",
+            "species": "glandarius",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 240000
+        },
+        {
+            "name": "Kuukkeli",
+            "genus": "Perisoreus",
+            "species": "infaustus",
+            "cs2015": "NT",
+            "cs2010": "NT",
+            "cs2000": "NT",
+            "count2015": 160000
+        },
+        {
+            "name": "Harakka",
+            "genus": "Pica",
+            "species": "pica",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 390000
+        },
+        {
+            "name": "Pähkinähakki",
+            "genus": "Nucifraga",
+            "species": "caryocatactes",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 7000
+        },
+        {
+            "name": "Naakka",
+            "genus": "Corvus",
+            "species": "monedula",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 270000
+        },
+        {
+            "name": "Mustavaris",
+            "genus": "Corvus",
+            "species": "frugilegus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 3200
+        },
+        {
+            "name": "Varis",
+            "genus": "Corvus",
+            "species": "corone",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 37000
+        },
+        {
+            "name": "Korppi",
+            "genus": "Corvus",
+            "species": "corax",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 43000
+        },
+        {
+            "name": "Kottarainen",
+            "genus": "Sturnus",
+            "species": "vulgaris",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 130000
+        },
+        {
+            "name": "Varpunen",
+            "genus": "Passer",
+            "species": "domesticus",
+            "cs2015": "VU",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 490000
+        },
+        {
+            "name": "Pikkuvarpunen",
+            "genus": "Passer",
+            "species": "montanus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 350000
+        },
+        {
+            "name": "Peippo",
+            "genus": "Fringilla",
+            "species": "coelebs",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 15000000
+        },
+        {
+            "name": "Järripeippo",
+            "genus": "Fringilla",
+            "species": "montifringilla",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 2600000
+        },
+        {
+            "name": "Keltahemppo",
+            "genus": "Serinus",
+            "species": "serinus",
+            "cs2015": "NA",
+            "cs2010": "NA",
+            "cs2000": "–",
+            "count2015": 6
+        },
+        {
+            "name": "Viherpeippo",
+            "genus": "Carduelis",
+            "species": "chloris",
+            "cs2015": "VU",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 580000
+        },
+        {
+            "name": "Tikli",
+            "genus": "Carduelis",
+            "species": "carduelis",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 25000
+        },
+        {
+            "name": "Vihervarpunen",
+            "genus": "Carduelis",
+            "species": "spinus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 3300000
+        },
+        {
+            "name": "Hemppo",
+            "genus": "Carduelis",
+            "species": "cannabina",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 41000
+        },
+        {
+            "name": "Vuorihemppo",
+            "genus": "Carduelis",
+            "species": "flavirostris",
+            "cs2015": "EN",
+            "cs2010": "VU",
+            "cs2000": "DD",
+            "count2015": 20
+        },
+        {
+            "name": "Urpiainen",
+            "genus": "Carduelis",
+            "species": "flammea",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 850000
+        },
+        {
+            "name": "Tundraurpiainen",
+            "genus": "Carduelis",
+            "species": "hornemanni",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 21000
+        },
+        {
+            "name": "Kirjosiipikäpylintu",
+            "genus": "Loxia",
+            "species": "leucopterus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 24000
+        },
+        {
+            "name": "Pikkukäpylintu",
+            "genus": "Loxia",
+            "species": "curvirostra",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 780000
+        },
+        {
+            "name": "Isokäpylintu",
+            "genus": "loxia",
+            "species": "pytyopsittacus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 150000
+        },
+        {
+            "name": "Punavarpunen",
+            "genus": "Carpodacus",
+            "species": "erythrinus",
+            "cs2015": "NT",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 270000
+        },
+        {
+            "name": "Taviokuurna",
+            "genus": "Pinicola",
+            "species": "enucleator",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 29000
+        },
+        {
+            "name": "Punatulkku",
+            "genus": "Pyrrhula",
+            "species": "pyrrhula",
+            "cs2015": "VU",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 380000
+        },
+        {
+            "name": "Nokkavarpunen",
+            "genus": "Coccothraustes",
+            "species": "coccothraustes",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "NT",
+            "count2015": 3000
+        },
+        {
+            "name": "Lapinsirkku",
+            "genus": "Calcarius",
+            "species": "lapponicus",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 290000
+        },
+        {
+            "name": "Pulmunen",
+            "genus": "Plectrophenax",
+            "species": "nivalis",
+            "cs2015": "EN",
+            "cs2010": "NT",
+            "cs2000": "LC",
+            "count2015": 15000
+        },
+        {
+            "name": "Keltasirkku",
+            "genus": "Emberiza",
+            "species": "citrinella",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 2000000
+        },
+        {
+            "name": "Peltosirkku",
+            "genus": "Emberiza",
+            "species": "hortulana",
+            "cs2015": "EN",
+            "cs2010": "EN",
+            "cs2000": "VU",
+            "count2015": 36000
+        },
+        {
+            "name": "Pohjansirkku",
+            "genus": "Emberiza",
+            "species": "rustica",
+            "cs2015": "NT",
+            "cs2010": "VU",
+            "cs2000": "LC",
+            "count2015": 440000
+        },
+        {
+            "name": "Pikkusirkku",
+            "genus": "Emberiza",
+            "species": "pusilla",
+            "cs2015": "LC",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 45000
+        },
+        {
+            "name": "Kultasirkku",
+            "genus": "Emberiza",
+            "species": "aureola",
+            "cs2015": "CR",
+            "cs2010": "CR",
+            "cs2000": "CR",
+            "count2015": 2
+        },
+        {
+            "name": "Pajusirkku",
+            "genus": "Emberiza",
+            "species": "schoeniclus",
+            "cs2015": "VU",
+            "cs2010": "LC",
+            "cs2000": "LC",
+            "count2015": 480000
         }
     ],
     "users": [
