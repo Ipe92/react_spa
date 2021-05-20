@@ -1,0 +1,6 @@
+JSON.stringify(rawData.map(([name, genus, species, cs2015, cs2010, cs2000, ...count2015]) => {
+  const count = count2015.join("").split("–"); 
+  const countMax = count[count.length -1];
+  const countFinal = countMax.includes(",") ? countMax.replace(/,/,"").replace(/milj\./,"00000") : countMax.replace(/milj\./,"000000");
+  return {name, genus, species, cs2015: cs2015.replace(/o/g,""), cs2010: cs2010.replace(/o/g,""), cs2000: cs2000.replace(/o/g,""), count2015: parseInt(countFinal)};
+ }))
