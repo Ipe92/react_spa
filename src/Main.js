@@ -12,6 +12,7 @@ import MoniVeto from "./containers/MoniVeto";
 import Birds from "./containers/Birds";
 import Responsive from "./containers/Responsive/Responsive";
 import Kartta from "./containers/Kartta/Kartta";
+import Treenit from "./containers/Treenit/Treenit";
 import Temperatures from "./containers/Temperatures/Temperatures";
 
 class Main extends Component {
@@ -46,6 +47,9 @@ class Main extends Component {
                                 <NavLink to="/kartta">Kartta</NavLink>
                             </li>
                             <li>
+                                <NavLink to="/treenit">Treenit</NavLink>
+                            </li>
+                            <li>
                                 <NavLink to="/temperatures">Temperatures</NavLink>
                             </li>
                             <li>
@@ -61,6 +65,7 @@ class Main extends Component {
                             <Route path="/responsive" component={Responsive} />
                             <Route path="/kartta" component={Kartta} />
                             <Route path="/temperatures" component={Temperatures} />
+                            <Route path="/treenit" component={Treenit} />
                             <Route path="/json" component={Json} />
                         </div>
                     </div>
